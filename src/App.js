@@ -38,7 +38,7 @@ function App() {
         navigator.clipboard.writeText(result.result_url)
         setCopied(true)
       }}>
-        { !copied ? 'Click to copy' : 'Link has been copied' }
+        { !copied ? 'Click to copy' : 'Link has been copied!' }
       </button>
     </div>
   )
