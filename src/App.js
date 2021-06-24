@@ -8,6 +8,7 @@ function App() {
   // state variables
   const [result, setResult] = useState({})
   const [showResults, setShowResults] = useState(false)
+  const [copied, setCopied] = useState(false)
 
   const handleOnChange = async (event) => {
     event.preventDefault()
@@ -31,6 +32,14 @@ function App() {
     <div>
       <h6>Here's your short & pretty URL 🙃</h6>
       <h5><a href={result.result_url} target=" ">{result.result_url}</a></h5>
+      <button
+      className="btn btn-light"
+      onClick={ () => {
+        navigator.clipboard.writeText(result.result_url)
+        setCopied(true)
+      }}>
+        { !copied ? 'Click to copy' : 'Link has been copied' }
+      </button>
     </div>
   )
 
