@@ -30,7 +30,7 @@ function App() {
   const Results = () => (
     <div>
       <h6>Here's your short & pretty URL 🙃</h6>
-      <h5><a href={result.result_url}>{result.result_url}</a></h5>
+      <h5><a href={result.result_url} target=" ">{result.result_url}</a></h5>
     </div>
   )
 
