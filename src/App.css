@@ -1,0 +1,87 @@
+.App button {
+  width: 200px;
+}
+
+.App h6 {
+  color: darkslategrey;
+}
+
+.App h6 a {
+  color: darkred;
+  text-decoration-line: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .App * {
+    margin: 3% 0%;
+  }
+  .App {
+    text-align: center;
+    margin-top: 25%;
+    font-family: 'Lato', sans-serif;
+  }
+  .App h1 {
+    margin-bottom: 4%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .App * {
+    margin: 2.5% 0%;
+  }
+  .App {
+    text-align: center;
+    margin-top: 25%;
+    font-family: 'Lato', sans-serif;
+  }
+  .App h1 {
+    margin-bottom: 5%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .App * {
+    margin: 2.5% 0%;
+  }
+  .App {
+    text-align: center;
+    margin-top: 20%;
+    font-family: 'Lato', sans-serif;
+  }
+  .App h1 {
+    margin-bottom: 3%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .App * {
+    margin: 2.5% 0%;
+  }
+  .App {
+    text-align: center;
+    margin-top: 15%;
+    font-family: 'Lato', sans-serif;
+  }
+  .App h1 {
+    margin-bottom: 2%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .App * {
+    margin: 2% 0%;
+  }
+  .App {
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Lato', sans-serif;
+  }
+  .App h1 {
+    margin-bottom: 1%;
+  }
+}
