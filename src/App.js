@@ -46,7 +46,7 @@ function App() {
   return (
     <div className="App container">
       <div className="row justify-content-md-center">
-        <h1><b>URL Shortner</b></h1>
+        <h1><b>URL Shortener</b></h1>
         <form className="col-xs-12 col-sm-12 col-md-8 col-lg-6 col-xl-6">
           <div className="form-group">
             <input type="text" class="form-control" id="inputUrl" placeholder="Paste the ugly long link here!" onChange={handleOnChange} ref={inputRef} />
